@@ -1,11 +1,7 @@
 groups:
   Spieler:
     permissions:
-    - teamlist.team
-    - 1vs1.Player
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
+    - bukkit.command.tps
     - plots.plot.1
     - plots.use
     - plots.auto
@@ -16,30 +12,17 @@ groups:
     options:
       prefix: '&7'
       default: true
-    worlds:
-      '&r&aSpieler':
-        options:
-          prefix: '&aSpieler&7&l'
-      '&7|':
-        options:
-          prefix: '&aSpieler'
   premium:
     permissions:
-    - teamlist.team
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
+    - bukkit.command.tps
     - plots.plot.2
     - plots.use
     - plots.auto
     - plotsmenu.compass
     - plotsmenu.command.plotsmenu
     - plotsmenu.command.menu
-    - worldedit.*
     - headdb.*
-    - bukkit.command.gamemode
-    - bukkit.command.defaultgamemode
-    - premiumjoin.join
+    - griffix.premiumjoin
     inheritance:
     - Spieler
     options:
@@ -48,44 +31,51 @@ groups:
       default: false
   premiumplus:
     permissions:
-    - premiumjoin.join
-    - 1vs1.Premium
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - cloudbot.regist
-    - cloudbot.premiumplus
-    - CloudBot.System.link
-    - CloudBot.System.unlink
+    - bukkit.command.tps
+    - plots.plot.2
+    - plots.use
+    - plots.auto
+    - plotsmenu.compass
+    - plotsmenu.command.plotsmenu
+    - plotsmenu.command.menu
+    - headdb.*
+    - griffix.premiumjoin
+    - griffix.youtuber
     inheritance:
     - Spieler
     options:
       build: true
-      prefix: '66'
+      prefix: '&6'
       default: false
   Supporter:
     permissions:
-    - lobby.hidebypass
+    - bukkit.command.tps
+    - super-vanish
+    - setflyspeed.set
+    - bukkit.command.tps
+    - plots.permpack.basic
+    - bukkit.command.gamemode
+    - bukkit.command.kill
+    - bukkit.command.teleport
+    - bukkit.command.achievement
+    - bukkit.command.defaultgamemode
+    - bukkit.command.weather
     - minecraft.command.tp
     - minecraft.command.kick
     - minecraft.command.gamemode
     - minecraft.command.weather
-    - bungee.reports
-    - bungee.ban
-    - bungee.kick
-    - bungee.jump
-    - bungee.teamchat
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.weather
     - griffix.premiumjoin
     - griffix.youtuber
-    - griffix.
+    - griffix.chat
     inheritance:
     - Spieler
     - VIP
@@ -96,70 +86,31 @@ groups:
       default: false
   Mod:
     permissions:
+    - bukkit.command.tps
     - plots.permpack.basic
-    - coins.admin
-    - Lobby.admin
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
     - bukkit.command.gamemode
-    - bukkit.command.give
     - bukkit.command.kill
-    - bukkit.command.say
     - bukkit.command.teleport
-    - bukkit.command.tps
     - bukkit.command.achievement
     - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - 1vs1.Moderator
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Mod
-    - plots.permpack.basic
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
-    - bukkit.command.gamemode
-    - bukkit.command.give
-    - bukkit.command.teleport
-    - bukkit.command.tps
-    - bukkit.command.achievement
-    - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - 1vs1.Builder
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Builder
+    - bukkit.command.weather
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.weather
     - worldedit.*
     - multiverse.*
     - headdb.*
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.chat
+    - super-vanish
+    - setflyspeed.set
     inheritance:
     - Supporter
     options:
@@ -168,69 +119,31 @@ groups:
   Srmod:
     permissions:
     - plots.permpack.basic
-    - coins.admin
-    - Lobby.admin
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
     - bukkit.command.gamemode
-    - bukkit.command.give
     - bukkit.command.kill
-    - bukkit.command.say
     - bukkit.command.teleport
     - bukkit.command.tps
     - bukkit.command.achievement
     - bukkit.command.defaultgamemode
     - bukkit.command.help
-    - 1vs1.Moderator
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Mod
-    - plots.permpack.basic
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
-    - bukkit.command.gamemode
-    - bukkit.command.give
-    - bukkit.command.teleport
-    - bukkit.command.tps
-    - bukkit.command.achievement
-    - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - 1vs1.Builder
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Builder
+    - bukkit.command.weather
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.weather
     - worldedit.*
     - multiverse.*
     - headdb.*
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.chat
+    - super-vanish
+    - setflyspeed.set
     inheritance:
     - Supporter
     options:
@@ -239,11 +152,8 @@ groups:
   Owner1:
     permissions:
     - '*'
-    - coins.admin
-    - Lobby.admin
+    - super.vanish
     - DerMarios.ppttac
-    - teamlist.team
-    - premiumjoin.join
     - bukkit.command.gamemode
     - bukkit.command.give
     - bukkit.command.kill
@@ -256,11 +166,6 @@ groups:
     - bukkit.command.op
     - bukkit.command.deop
     - buycraft.admin
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - prefix.Admin
     - worldedit.*
     - permissions.*
     - multiverse.*
@@ -271,11 +176,11 @@ groups:
     - permissions.manage.membership.*
     - permissions.manage.groups.list
     - noplugin.seeplugins
-    - null
-    - null
-    - null
-    - null
-    - null
+    - banitem.*
+    - griffix.creator
+    - griffix.chat
+    - super-vanish
+    - setflyspeed.set
     - null
     - null
     - null
@@ -334,11 +239,8 @@ groups:
       prefix: '&4&lOwner &8● &7'
   Admin:
     permissions:
-    - coins.admin
-    - Lobby.admin
+    - banitem.*
     - DerMarios.ppttac
-    - teamlist.team
-    - premiumjoin.join
     - bukkit.command.gamemode
     - bukkit.command.give
     - bukkit.command.kill
@@ -350,123 +252,70 @@ groups:
     - bukkit.command.help
     - bukkit.command.op
     - bukkit.command.deop
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.op
+    - minecraft.command.deop
+    - minecraft.command.say
+    - minecraft.command.weather
+    - bukkit.command.weather
     - buycraft.admin
-    - 1vs1.*
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - prefix.Admin
+    - super.vanish
     - worldedit.*
     - permissions.*
     - headdb.*
     - noplugin.seeplugins
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.creator
+    - griffix.chat
+    - setflyspeed.set
     options:
       build: true
       prefix: '&c&lAdmin &8● &7'
   Builder:
     permissions:
+    - banitem.toogle
     - plots.permpack.basic
-    - lobby.hidebypass
-    - teamlist.team
     - premiumjoin.join
     - bukkit.command.gamemode
-    - bukkit.command.give
+    - bukkit.command.kill
     - bukkit.command.teleport
     - bukkit.command.tps
     - bukkit.command.achievement
     - bukkit.command.defaultgamemode
     - bukkit.command.help
-    - 1vs1.Builder
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Builder
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.weather
     - worldedit.*
     - multiverse.*
     - headdb.*
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.chat
+    - super-vanish
+    - setflyspeed.set
     inheritance:
     - Head-Builder
     options:
       build: true
       prefix: '&e&lBuilder &8● &7'
-  Builder1:
-    permissions:
-    - plots.permpack.basic
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
-    - bukkit.command.gamemode
-    - bukkit.command.give
-    - bukkit.command.teleport
-    - bukkit.command.tps
-    - bukkit.command.achievement
-    - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - 1vs1.Builder
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Builder
-    - worldedit.*
-    - multiverse.*
-    - headdb.*
-    inheritance:
-    - Head-Builder
-    options:
-      build: true
-      prefix: '&eB &8| &e'
-  Test.Builder:
-    permissions:
-    - worldedit.*
-    inheritance:
-    - Head-Builder
-    options:
-      build: true
-      prefix: '&f'
   Developer:
     permissions:
-    - coins.admin
-    - lobby.hidebypass
     - DerMarios.ppttac
-    - teamlist.team
-    - premiumjoin.join
     - bukkit.command.gamemode
     - bukkit.command.give
     - bukkit.command.kill
@@ -476,7 +325,23 @@ groups:
     - bukkit.command.achievement
     - bukkit.command.defaultgamemode
     - bukkit.command.help
+    - minecraft.command.gamemode
+    - minecraft.command.kill
+    - minecraft.command.teleport
+    - minecraft.command.help
+    - minecraft.command.achivement
+    - minecraft.command.tps
+    - minecraft.command.help
+    - minecraft.command.defaultgamemode 
+    - minecraft.command.weather
     - noplugin.seeplugins
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.creator
+    - griffix.chat
+    - multiverse.*
+    - super-vanish
+    - setflyspeed.set
     inheritance:
     - Spieler
     - VIP
@@ -485,79 +350,18 @@ groups:
       build: true
       prefix: '&b&lDeveloper &8● &7'
       default: false
-  Test.Developer:
-    permissions:
-    - teamlist.team
-    - premiumjoin.join
-    - bukkit.command.gamemode
-    - bukkit.command.give
-    - bukkit.command.kill
-    - bukkit.command.say
-    - bukkit.command.teleport
-    - bukkit.command.tps
-    - bukkit.command.achievement
-    - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - 1vs1.Premium
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    inheritance:
-    - Spieler
-    - VIP
-    - YouTuber
-    options:
-      build: true
-      prefix: '&f '
-      default: false
-  Test.Mod:
-    permissions:
-    - teamlist.team
-    - premiumjoin.join
-    - 1vs1.Premium
-    inheritance:
-    - Spieler
-    - VIP
-    - YouTuber
-    options:
-      build: true
-      prefix: '&f '
-      default: false
-  Test.Supporter:
-    permissions:
-    - teamlist.team
-    - premiumjoin.join
-    - 1vs1.Premium
-    inheritance:
-    - Spieler
-    - VIP
-    - YouTuber
-    options:
-      build: true
-      prefix: '&f '
-      default: false
   YouTuber:
     permissions:
-    - lobby.yter
-    - lobby.hidebypass
-    - teamlist.team
-    - premiumjoin.join
-    - 1vs1.Premium
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - cloudbot.regist
-    - cloudbot.youtuber
-    - CloudBot.System.link
-    - CloudBot.System.unlink
+    - bukkit.command.tps
+    - plots.plot.2
+    - plots.use
+    - plots.auto
+    - plotsmenu.compass
+    - plotsmenu.command.plotsmenu
+    - plotsmenu.command.menu
+    - headdb.*
+    - griffix.premiumjoin
+    - griffix.youtuber
     inheritance:
     - Spieler
     - VIP
