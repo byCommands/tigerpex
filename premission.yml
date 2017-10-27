@@ -73,6 +73,7 @@ groups:
     - minecraft.command.help
     - minecraft.command.defaultgamemode 
     - minecraft.command.weather
+    - headdb.*
     - griffix.premiumjoin
     - griffix.youtuber
     - griffix.chat
@@ -335,6 +336,7 @@ groups:
     - minecraft.command.defaultgamemode 
     - minecraft.command.weather
     - noplugin.seeplugins
+    - headdb.*
     - griffix.premiumjoin
     - griffix.youtuber
     - griffix.creator
@@ -389,7 +391,7 @@ users:
       name: byCommand
   de98e766-c31c-45b6-85ac-502c6ea354d6:
     group:
-    - Admin
+    - Mod
     options:
       name: Sternzeichen
   6f20c2af-c92e-46b0-ae7a-56d48a8dd516:
@@ -397,9 +399,6 @@ users:
     - Developer
     options:
       name: LonghornHDTV
-    permissions:
-    - '*'
-    - permissions.*
   26c217fd-1d31-4b56-a445-0fb3ffc75915:
     group:
     - Builder
