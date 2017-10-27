@@ -1,0 +1,19 @@
+multiserver:
+use-netevents: false
+permissions:
+debug: false
+allowOps: true
+user-add-groups-last: false
+log-players: true
+createUserRecords: true
+backend: sql
+informplayers:
+changes: false
+basedir: plugins/PermissionsEx
+backends:
+sql:
+uri: mysql://167.114.100.25:3306/fourwindsmc
+user: username 
+password: password
+updater: true
+alwaysUpdate: false
