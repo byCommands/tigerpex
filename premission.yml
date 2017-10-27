@@ -74,35 +74,18 @@ groups:
   Supporter:
     permissions:
     - lobby.hidebypass
-    - premiumjoin.join
-    - bukkit.command.gamemode
-    - bukkit.command.give
-    - bukkit.command.kill
-    - bukkit.command.say
-    - bukkit.command.teleport
-    - bukkit.command.tps
-    - bukkit.command.achievement
-    - bukkit.command.defaultgamemode
-    - bukkit.command.help
-    - teamlist.team
-    - 1vs1.CoAdmin
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Supp
+    - minecraft.command.tp
+    - minecraft.command.kick
+    - minecraft.command.gamemode
+    - minecraft.command.weather
+    - bungee.reports
+    - bungee.ban
+    - bungee.kick
+    - bungee.jump
+    - bungee.teamchat
+    - griffix.premiumjoin
+    - griffix.youtuber
+    - griffix.
     inheritance:
     - Spieler
     - VIP
@@ -273,19 +256,6 @@ groups:
     - bukkit.command.op
     - bukkit.command.deop
     - buycraft.admin
-    - 1vs1.*
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
     - sv.use
     - cloudbot.regist
     - CloudBot.System.link
@@ -300,14 +270,7 @@ groups:
     - permissions.manage.users.*
     - permissions.manage.membership.*
     - permissions.manage.groups.list
-    - gadgetsmenu.*
-    - gadgetsmenu.cosmetics.*
-    - gadgetsmenu.commands.permission
-    - gadgetsmenu.commands.*
-    - gadgetsmenu.mysterydust.set
-    - gadgetsmenu.mysteryboxes.mode
-    - gadgetsmenu.commands.admin
-    - null
+    - noplugin.seeplugins
     - null
     - null
     - null
@@ -409,6 +372,7 @@ groups:
     - worldedit.*
     - permissions.*
     - headdb.*
+    - noplugin.seeplugins
     options:
       build: true
       prefix: '&c&lAdmin &8● &7'
@@ -512,24 +476,7 @@ groups:
     - bukkit.command.achievement
     - bukkit.command.defaultgamemode
     - bukkit.command.help
-    - 1vs1.Developer
-    - core.hat.tnt
-    - core.hat.noteblock
-    - core.feature.doublejump
-    - core.boots.heart
-    - core.boots.music
-    - core.boots.rainbow
-    - core.hat.melon
-    - core.hat.sponge
-    - core.hat.glas
-    - core.boots.villager
-    - core.boots.fire
-    - core.feature.jetpack
-    - sv.use
-    - cloudbot.regist
-    - CloudBot.System.link
-    - CloudBot.System.unlink
-    - rang.Dev
+    - noplugin.seeplugins
     inheritance:
     - Spieler
     - VIP
