@@ -105,6 +105,14 @@ groups:
     - minecraft.command.defaultgamemode 
     - minecraft.command.weather
     - worldedit.*
+    - fawe.admin
+    - builders.util.secretblocks
+    - builders.util.banner
+    - builders.util.color
+    - builders.util.noclip
+    - builders.util.nightvision
+    - builders.util.advancedfly
+    - builders.util.tpgm3
     - multiverse.*
     - headdb.*
     - griffix.premiumjoin
@@ -138,6 +146,14 @@ groups:
     - minecraft.command.defaultgamemode 
     - minecraft.command.weather
     - worldedit.*
+    - fawe.admin
+    - builders.util.secretblocks
+    - builders.util.banner
+    - builders.util.color
+    - builders.util.noclip
+    - builders.util.nightvision
+    - builders.util.advancedfly
+    - builders.util.tpgm3
     - multiverse.*
     - headdb.*
     - griffix.premiumjoin
@@ -168,6 +184,14 @@ groups:
     - bukkit.command.deop
     - buycraft.admin
     - worldedit.*
+    - fawe.admin
+    - builders.util.secretblocks
+    - builders.util.banner
+    - builders.util.color
+    - builders.util.noclip
+    - builders.util.nightvision
+    - builders.util.advancedfly
+    - builders.util.tpgm3
     - permissions.*
     - multiverse.*
     - headdb.*
@@ -269,6 +293,14 @@ groups:
     - buycraft.admin
     - super.vanish
     - worldedit.*
+    - fawe.admin
+    - builders.util.secretblocks
+    - builders.util.banner
+    - builders.util.color
+    - builders.util.noclip
+    - builders.util.nightvision
+    - builders.util.advancedfly
+    - builders.util.tpgm3
     - permissions.*
     - headdb.*
     - noplugin.seeplugins
@@ -302,6 +334,14 @@ groups:
     - minecraft.command.defaultgamemode 
     - minecraft.command.weather
     - worldedit.*
+    - fawe.admin
+    - builders.util.secretblocks
+    - builders.util.banner
+    - builders.util.color
+    - builders.util.noclip
+    - builders.util.nightvision
+    - builders.util.advancedfly
+    - builders.util.tpgm3
     - multiverse.*
     - headdb.*
     - griffix.premiumjoin
@@ -376,7 +416,7 @@ schema-version: 1
 users:
   3b336f83-232d-4f3e-b653-c8443e504670:
     group:
-    - Builder
+    - Builder1
     options:
       name: doofesPummelUff
   099f93b6-4730-4b37-8597-118d9201f420:
@@ -401,6 +441,6 @@ users:
       name: LonghornHDTV
   26c217fd-1d31-4b56-a445-0fb3ffc75915:
     group:
-    - Builder
+    - Builder1
     options:
       name: EliTEC
